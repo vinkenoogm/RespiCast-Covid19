@@ -1,22 +1,12 @@
 {
-    "schema_version": "https://raw.githubusercontent.com/Infectious-Disease-Modeling-Hubs/schemas/main/v2.0.0/admin-schema.json",
-    "name": "European Flu Forecasting Hub",
+    "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v3.0.1/admin-schema.json",
+    "name": "European Covid19 Forecasting Hub",
     "maintainer": "ISI Foundation",
     "contact": {
         "name": "Paolo Milano",
         "email": "paolo.milano@isi.it"
     },
-    "repository_url": "https://github.com/european-modelling-hubs/flu-forecast-hub",
+    "repository_url": "https://github.com/european-modelling-hubs/covid19ForecastHub",
     "file_format": ["csv"],
-    "hub_models": [{
-        "team_abbr": "respicast",
-        "model_abbr": "hubEnsemble",
-        "model_type": "ensemble"
-    },
-    {
-        "team_abbr": "respicast",
-        "model_abbr": "quantileBaseline",
-        "model_type": "baseline"
-    }],
     "timezone": "Europe/Stockholm"
 }
