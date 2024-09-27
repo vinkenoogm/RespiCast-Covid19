@@ -101,7 +101,7 @@ jobs:
 
   call-persisting-wf:
     needs: validate-submission_job
-    uses: european-modelling-hubs/flu-forecast-hub/.github/workflows/persist_changes.yml@main
+    uses: european-modelling-hubs//.github/workflows/persist_changes.yml@main
     with:
       changes-list: ${{ needs.validate-submission_job.outputs.changed_files }}
 

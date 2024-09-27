@@ -41,7 +41,7 @@ jobs:
       uses: actions/checkout@v3
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        repository: 'european-modelling-hubs/flu-forecast-hub'
+        repository: 'european-modelling-hubs/covid19ForecastHub'
         ref: 'main'
         path: './repo/'
 
@@ -105,7 +105,7 @@ jobs:
   # Save data to json db
   call-persisting-wf:
     needs: scoring_job
-    uses: european-modelling-hubs/flu-forecast-hub/.github/workflows/persist_changes.yml@main
+    uses: european-modelling-hubs/covid19ForecastHub/.github/workflows/persist_changes.yml@main
     with:
       changes-list: ${{ needs.scoring_job.outputs.changed_files }}
 
