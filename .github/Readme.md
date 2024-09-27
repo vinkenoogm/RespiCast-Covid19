@@ -13,14 +13,14 @@ This is a brief outline for anyone considering contributing a forecast. For a de
 To prepare for your initial submission, consult the [Preparing to Submit](https://github.com/european-modelling-hubs/covid19ForecastHub/wiki/Preparing-to-submit) guide. This guide provides details on forking the repository, creating a team folder, and uploading a team metadata file.
 
 #### Targets
-After completing the preceding steps, you are now prepared to submit your first forecast. We are currently focused on the forecast target of Weekly ILI Incidence and Weekly ARI Incidence (notified cases per $100,000$) in EU/EEA countries. Forecasts are evaluated against ILI and ARI incidence stored in the `target-data` folder of this repository. 
+After completing the preceding steps, you are now prepared to submit your first forecast. We are currently focused on the forecast target of Weekly Covid-19 Hospitalisations (notified cases per $100,000$) in EU/EEA countries. Forecasts are evaluated against ILI and ARI incidence stored in the `target-data` folder of this repository. 
 
 
 #### Forecast Submission
 Forecast can be submitted to the Hub either via [GitHub website](https://github.com/european-modelling-hubs/covid19ForecastHub/wiki/Submitting-using-GitHub-Website) or [GitHub Command Line](https://github.com/european-modelling-hubs/covid19ForecastHub/wiki/Submitting-using-GitHub-Command-Line). The submission will trigger automatic validations that check the forecast have the [required format](https://github.com/european-modelling-hubs/covid19ForecastHub/wiki/Submission-Format). Incorrect formatting will lead to errors, resulting in submission failure. If this occurs, kindly review and rectify your format. Should you encounter persistent issues, feel free to reach out to us via email at [European.Modelling.Hub@ecdc.europa.eu](mailto:European.Modelling.Hub@ecdc.europa.eu) or by opening an issue in this repository.
 
 
-## About European Syndromic Disease Forecasting Hub
+## About European Covid-19 Forecasting Hub
 The European Covid-19 Forecasting Hub is part of the European Respiratory Diseases Forecasting Hubs consortium (RespiCast), which combines multiple forecasting hubs for several respiratory disease indicators, including influenza-like-illness (ILI), acute respiratory infection (ARI), and COVID-19. This consortium of hubs is run in collaboration between the European Centre for Disease Control and Prevention (ECDC), the [ISI Foundation](https://www.isi.it/en/home), and the [London School of Hygiene & Tropical Medicine](https://epiforecasts.io/). Teams from anywhere in the world are invited to submit weekly forecasts for one or more disease indicators and for one or more countries. For more information visit the [RespiCast website](https://respicast.ecdc.europa.eu/)
 
 ## Get in Touch
