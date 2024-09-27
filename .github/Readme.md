@@ -1,61 +1,28 @@
-
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
 # European Covid-19 Forecasting Hub
-The European Covid-19 Forecasting Hub collates weekly forecasts on Covid-19 incidence in EU/EEA countries. To view the latest forecast visit the [Hub Website](https://respicast.ecdc.europa.eu/forecasts/).
+The European Covid-19 Forecasting Hub collates weekly forecasts on Covid-19 Hospital Admissions in EU/EEA countries. To view the latest forecast visit the [Hub Website](https://respicast.ecdc.europa.eu/forecasts/).
 
-This repo contains the necessary infrastructure to handle automatic
-submissions to a Forecast Hub (in this specific case, the [European
-Covid-19 Forecast
-Hub](https://github.com/epiforecasts/covid19-forecast-hub-europe)).
+## Forecasting Targets and Update Frequency
+During the winter season, participating teams submit weekly probabilistic forecasts from their models regarding Covid-19 Hospital Admissions for the upcoming four weeks. This data is communicated every week by the ECDC through the [ERVISS report](https://erviss.org/). Data is updated generally on Friday, and it reports Covid-19 Hospital Admissions related up to the previous week. Forecast submission opens right after updated data are uploaded to this repository and closes on the next Wednesday at 23:59 CET. In the event of changes in the timelines of data availability, the day of the week for forecast submissions may be adjusted accordingly. In such instances, participants will receive notifications at least one week in advance. Following the submission deadline, forecasts and the ensemble are published on the [Hub website](https://respicast.ecdc.europa.eu/forecasts/) every Thursday. They cover the preceding week (which lacks consolidated public data), the current week, and the two subsequent weeks.
 
-Each model is stored as a git submodule (after a security scan) under
-the `models/` folder and code is run automatically on a schedule via
-GitHub Actions. The generated forecasts are then submitted to the hub
-repository as a pull request.
 
-As of 2024-09-03, 572 automated submissions have successfully been
-merged.
+## Quick Start
+This is a brief outline for anyone considering contributing a forecast. For a detailed guide on how to structure and submit a forecast, please read the technical [Wiki](https://github.com/european-modelling-hubs/covid19ForecastHub/wiki).
 
-## Guidelines for submitting your model
 
-To submit your model for auto-submission, you need to [open an
-issue](https://github.com/epiforecasts/covid19-forecast-hub-europe-submissions/issues/new?template=new-model.md)
-providing:
+#### Setup
+To prepare for your initial submission, consult the [Preparing to Submit](https://github.com/european-modelling-hubs/covid19ForecastHub/wiki/Preparing-to-submit) guide. This guide provides details on forking the repository, creating a team folder, and uploading a team metadata file.
 
-- The URL to a public git repository (e.g., hosted on GitHub)
-  containing:
-  - a file `main.sh`, `main.R` or `main.py` **at its root**. This `main`
-    file needs to create the forecasts with the expected folder
-    structure in a folder named `data-processed`.
-  - a dependency management file. The exact name and syntax depend on
-    the programming language you are using. Some examples are
-    `requirements.txt` for python (with pip) or `renv.lock` for R (with
-    renv). **All dependencies must have an exact version pinned to
-    minimise risk of breakage with future dependency updates.**
-- the week day and time at which the workflow should run (as UTC).
-- the name of the GitHub user who should be tagged on pull request to
-  review automated submissions.
+#### Targets
+After completing the preceding steps, you are now prepared to submit your first forecast. We are currently focused on the forecast target of Weekly ILI Incidence and Weekly ARI Incidence (notified cases per $100,000$) in EU/EEA countries. Forecasts are evaluated against ILI and ARI incidence stored in the `target-data` folder of this repository. 
 
-Please note that although encouraged, it is not strictly mandatory to
-submit the code generating your forecasts. You can submit a script
-fetching already existing forecasts from another location such as an
-API, another GitHub repository, a data repository, a dropbox folder,
-etc.
 
-------------------------------------------------------------------------
+#### Forecast Submission
+Forecast can be submitted to the Hub either via [GitHub website](https://github.com/european-modelling-hubs/covid19ForecastHub/wiki/Submitting-using-GitHub-Website) or [GitHub Command Line](https://github.com/european-modelling-hubs/covid19ForecastHub/wiki/Submitting-using-GitHub-Command-Line). The submission will trigger automatic validations that check the forecast have the [required format](https://github.com/european-modelling-hubs/covid19ForecastHub/wiki/Submission-Format). Incorrect formatting will lead to errors, resulting in submission failure. If this occurs, kindly review and rectify your format. Should you encounter persistent issues, feel free to reach out to us via email at [European.Modelling.Hub@ecdc.europa.eu](mailto:European.Modelling.Hub@ecdc.europa.eu) or by opening an issue in this repository.
 
-### Developer guidelines
 
-Update submodules with
+## About European Syndromic Disease Forecasting Hub
+The European Covid-19 Forecasting Hub is part of the European Respiratory Diseases Forecasting Hubs consortium (RespiCast), which combines multiple forecasting hubs for several respiratory disease indicators, including influenza-like-illness (ILI), acute respiratory infection (ARI), and COVID-19. This consortium of hubs is run in collaboration between the European Centre for Disease Control and Prevention (ECDC), the [ISI Foundation](https://www.isi.it/en/home), and the [London School of Hygiene & Tropical Medicine](https://epiforecasts.io/). Teams from anywhere in the world are invited to submit weekly forecasts for one or more disease indicators and for one or more countries. For more information visit the [RespiCast website](https://respicast.ecdc.europa.eu/)
 
-    git submodule foreach git pull
-
-Add a new submodule with
-
-    git submodule add <repo_url> models/repo_name
-
-Remove a submodule with
-
-\`\`\` git submodule deinit models/repo_name git rm models/repo_name
+## Get in Touch
+If you have any questions or encounter issues at any stage, please don't hesitate to reach out to us via [email](mailto:European.Modelling.Hub@ecdc.europa.eu).
 
