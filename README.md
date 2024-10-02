@@ -1,1 +1,1 @@
-# covid19ForecastHub
+# RespiCast-Covid19

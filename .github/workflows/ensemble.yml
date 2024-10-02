@@ -71,7 +71,7 @@ jobs:
 
   call-persisting-wf:
     needs: ensemble_job
-    uses: european-modelling-hubs/covid19ForecastHub/.github/workflows/persist_changes.yml@main
+    uses: european-modelling-hubs/RespiCast-Covid19/.github/workflows/persist_changes.yml@main
     with:
       changes-list: ${{ needs.ensemble_job.outputs.changed_files }}
 
