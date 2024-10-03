@@ -1,6 +1,6 @@
 # Target Data - ERVISS
 
-This folder contains the ground truth information about Covid19 cases in EU/EEA countries from [ERVISS](https://erviss.org/).
+This folder contains the ground truth information about Covid-19 cases in EU/EEA countries from [ERVISS](https://erviss.org/).
 
 To access the latest data file, consider the [`latest-Covid19_cases.csv`]((https://github.com/european-modelling-hubs/RespiCast-Covid19/blob/main/target-data/ERVISS/latest-Covid19_cases.csv)). Alternatively, historical data files are stored in the folder [`snapshots`](https://github.com/european-modelling-hubs/RespiCast-Covid19/tree/main/target-data/ERVISS/snapshots) and are named `YYYY-MM-DD-Covid19_cases.csv`, with `YYYY-MM-DD` representing the date of the last data update (which occurs every Friday). It's important to note that the latest files not only includes new data points but also the entire available history.
 
@@ -13,7 +13,7 @@ Each ground truth CSV file contains the following columns:
 | `location` | string | **ISO-2** code identifying the country |
 | `truth_date` | date | Date in format **YYYY-MM-DD**: the last day of the truth week (Sunday)|
 | `year_week` | string | A string denoting the year and week to which the truth data corresponds |
-| `value ` | decimal | Covid19 cases
+| `value ` | decimal | Covid-19 cases
 
 
 ERVISS covers the following countries: 
