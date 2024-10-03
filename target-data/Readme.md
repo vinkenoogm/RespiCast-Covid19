@@ -1,2 +1,2 @@
 # Target Data
-This `target-data` folder contains the ground truth information about Covid19 incidence in EU/EEA countries extracted from ...
+This `target-data` folder contains the ground truth information about Covid-19 cases in EU/EEA countries extracted from [ERVISS](https://erviss.org/). 
