@@ -44,7 +44,7 @@ jobs:
       with:
         python-version: '3.10' 
     
-    - run: pip install pycountry isoweek
+    - run: pip install pandas pycountry isoweek
     
     - name: Import Truth
       id: import_truth
