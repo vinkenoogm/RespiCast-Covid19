@@ -1,9 +1,4 @@
 {
-    "COVID19_cases": {
-        "changes": [
-            "target-data/ERVISS/snapshots/2024-10-11-COVID19_cases.csv"
-        ]
-    },
     "COVID19 cases": {
         "changes": [
             "target-data/ERVISS/snapshots/2024-10-11-COVID19_cases.csv"
