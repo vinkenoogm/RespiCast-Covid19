@@ -2,7 +2,7 @@
 
 This folder contains the ground truth information about Covid-19 cases in EU/EEA countries from [ERVISS](https://erviss.org/).
 
-To access the latest data file, consider the [`latest-Covid19_cases.csv`]((https://github.com/european-modelling-hubs/RespiCast-Covid19/blob/main/target-data/ERVISS/latest-Covid19_cases.csv)). Alternatively, historical data files are stored in the folder [`snapshots`](https://github.com/european-modelling-hubs/RespiCast-Covid19/tree/main/target-data/ERVISS/snapshots) and are named `YYYY-MM-DD-Covid19_cases.csv`, with `YYYY-MM-DD` representing the date of the last data update (which occurs every Friday). It's important to note that the latest files not only includes new data points but also the entire available history.
+To access the latest data file, consider the [`latest-Covid19_hospitalizations.csv`]((https://github.com/european-modelling-hubs/RespiCast-Covid19/blob/main/target-data/ERVISS/latest-Covid19_hospitalizations.csv)). Alternatively, historical data files are stored in the folder [`snapshots`](https://github.com/european-modelling-hubs/RespiCast-Covid19/tree/main/target-data/ERVISS/snapshots) and are named `YYYY-MM-DD-Covid19_hospitalizations.csv`, with `YYYY-MM-DD` representing the date of the last data update (which occurs every Friday). It's important to note that the latest files not only includes new data points but also the entire available history.
 
 **Note**: To access additional datasets for informing your model, please visit the [Respiratory Viruses Weekly Data](https://github.com/EU-ECDC/Respiratory_viruses_weekly_data/tree/main) repository published by the ECDC.
 
