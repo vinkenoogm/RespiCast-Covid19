@@ -10,6 +10,7 @@ Each ground truth CSV file contains the following columns:
 
 | column | column type | description |
 | -------- | -------- | ------- |
+| `target` | string | The forecast target: "hospital admissions" |
 | `location` | string | **ISO-2** code identifying the country |
 | `truth_date` | date | Date in format **YYYY-MM-DD**: the last day of the truth week (Sunday)|
 | `year_week` | string | A string denoting the year and week to which the truth data corresponds |
