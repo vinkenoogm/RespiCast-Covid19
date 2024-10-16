@@ -22,7 +22,7 @@
                             ]
                         },
                         "target": {
-                            "required": ["hospital_admissions"],
+                            "required": ["hospital admissions"],
                             "optional": null
                         },
                         "target_end_date": {
@@ -133,11 +133,11 @@
                     },
                     "target_metadata": [
                         {
-                           "target_id": "hospital_admissions",
+                           "target_id": "hospital admissions",
                            "target_name": "Weekly number of new Covid19 hospital admissions",
                            "target_units": "Number of new cases",
                            "target_keys": {
-                               "target": "hospital_admissions"
+                               "target": "hospital admissions"
                            },
                            "description": "This target represents the non-negative number of new Covid19 hospital admissions in the week ending on the date [horizon] weeks after the reference_date",
                            "target_type": "continuous",
