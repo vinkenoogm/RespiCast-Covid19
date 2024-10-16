@@ -1,5 +1,5 @@
 {
-    "COVID19 cases": {
+    "hospital admissions": {
         "changes": [
             "target-data/ERVISS/snapshots/2024-10-11-hospital_admissions.csv"
         ]
