@@ -3,8 +3,8 @@ name: DownloadFluID
 on:
 
   workflow_dispatch:
-  schedule:
-    - cron: "30 18 * * 5"
+  # schedule:
+  #   - cron: "30 18 * * 5"
 
     
 jobs:
