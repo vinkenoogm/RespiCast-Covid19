@@ -41,6 +41,44 @@ jobs:
             echo "$file was changed"
           done
 
+      # Check if some submission is outside allowed folders
+      - name: Check submission paths
+        run: |
+          echo "Files changed: ${{ steps.changed-files.outputs.all_changed_files }}"
+          
+          # Lista delle cartelle consentite
+          ALLOWED_FOLDERS=("model-metadata/" "model-output/")
+          
+          # Inizializza una variabile per i file fuori dalle cartelle consentite
+          FILES_OUTSIDE_FOLDERS=""
+          
+          # Itera su tutti i file modificati
+          for FILE in $(echo ${{ steps.changed-files.outputs.all_changed_files }} | jq -r '.[]'); do
+            MATCH_FOUND=false
+            
+            # Controlla se il file si trova in una delle cartelle consentite
+            for FOLDER in "${ALLOWED_FOLDERS[@]}"; do
+              if [[ "$FILE" == "$FOLDER"* ]]; then
+                MATCH_FOUND=true
+                break
+              fi
+            done
+            
+            # Se non è stato trovato un match, aggiungi il file alla lista dei file non consentiti
+            if [ "$MATCH_FOUND" = false ]; then
+              FILES_OUTSIDE_FOLDERS="${FILES_OUTSIDE_FOLDERS} $FILE"
+            fi
+          done
+          
+          # Se ci sono file fuori dalle cartelle consentite, fallisce la build
+          if [ ! -z "$FILES_OUTSIDE_FOLDERS" ]; then
+            echo "Error: PR contains files outside the allowed folders."
+            echo "Files outside allowed folders: $FILES_OUTSIDE_FOLDERS"
+            # exit 1
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
       # Look for file outside allowed folders
       # ---------------------------------------
