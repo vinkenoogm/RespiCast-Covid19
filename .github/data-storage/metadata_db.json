@@ -1,9 +1,10 @@
 {
     "changes": [
-        "model-metadata/ISI-CovBcast.yml",
         "model-metadata/ECDC-SARIMA.yml",
         "model-metadata/ISI-CovidABCaster.yml",
-        "model-metadata/ISI-RC_AdaptEns2.yml",
-        "model-metadata/ECDC-soca_simplex.yml"
+        "model-metadata/ECDC-soca_simplex.yml",
+        "model-metadata/ISI-CovBcast.yml",
+        "model-metadata/ISI-CovTestModel.yml",
+        "model-metadata/ISI-RC_AdaptEns2.yml"
     ]
 }
