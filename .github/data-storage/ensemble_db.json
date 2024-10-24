@@ -3,13 +3,13 @@
         {
             "model": "quantileBaseline",
             "changes": [
-                "model-output/respicastCovid19-quantileBaseline/2024-10-23-respicastCovid19-quantileBaseline.csv"
+                "model-output/respicast-quantileBaseline/2024-10-23-respicast-quantileBaseline.csv"
             ]
         },
         {
             "model": "hubEnsemble",
             "changes": [
-                "model-output/respicastCovid19-hubEnsemble/2024-10-23-respicastCovid19-hubEnsemble.csv"
+                "model-output/respicast-hubEnsemble/2024-10-23-respicast-hubEnsemble.csv"
             ]
         }
     ]
