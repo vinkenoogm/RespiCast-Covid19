@@ -14,7 +14,7 @@ on:
 jobs:
   
   ensemble_job:
-    if: ${{ github.event.workflow_run.conclusion == 'success' && github.repository_owner == 'european-modelling-hubs' }}
+    # if: ${{ github.event.workflow_run.conclusion == 'success' && github.repository_owner == 'european-modelling-hubs' }}
     runs-on: ubuntu-latest
     outputs:
       changed_files:  ${{ steps.generate_ensemble.outputs.ensemble_file }}
@@ -58,7 +58,7 @@ jobs:
       id: generate_ensemble
       run: |
         # call R script from tools
-        Rscript ./tools/R-code/generate-ensemble.R --hub_path "./repo" --agg_fun "median" --model_id "hubEnsemble" --team_id "respicast"
+        Rscript ./tools/R-code/generate-ensemble.R --hub_path "./repo" --agg_fun "median" --model_id "hubEnsemble" --team_id "respicastCovid19"
 
     - name: Commit changes
       uses: EndBug/add-and-commit@v7
