@@ -1,1 +1,10 @@
-{}
+{
+    "respicastCovid19": [
+        {
+            "model": "quantileBaseline",
+            "changes": [
+                "model-output/respicastCovid19-quantileBaseline/2024-10-23-respicastCovid19-quantileBaseline.csv"
+            ]
+        }
+    ]
+}
