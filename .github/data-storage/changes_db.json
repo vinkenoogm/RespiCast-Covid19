@@ -12,5 +12,19 @@
                 "model-output/ISI-CovBcast/2024-10-30-ISI-CovBcast.csv"
             ]
         }
+    ],
+    "ECDC": [
+        {
+            "model": "SARIMA",
+            "changes": [
+                "model-output/ECDC-SARIMA/2024-10-30-ECDC-SARIMA.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2024-10-30-ECDC-soca_simplex.csv"
+            ]
+        }
     ]
 }
