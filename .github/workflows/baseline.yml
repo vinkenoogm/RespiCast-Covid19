@@ -4,11 +4,11 @@ on:
 
   workflow_dispatch:
 
-  # workflow_run:
-  #   workflows: [ForecastUpload]
-      
-  #   types:
-  #     - completed
+  workflow_run:
+    workflows: [ForecastUpload]
+    
+    types:
+      - completed
     
 jobs:
 
