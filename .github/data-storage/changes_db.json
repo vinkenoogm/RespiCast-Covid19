@@ -1,1 +1,10 @@
-{}
+{
+    "ISI": [
+        {
+            "model": "RC_AdaptEns2",
+            "changes": [
+                "model-output/ISI-RC_AdaptEns2/2024-11-06-ISI-RC_AdaptEns2.csv"
+            ]
+        }
+    ]
+}
