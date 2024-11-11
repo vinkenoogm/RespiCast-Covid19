@@ -1,1 +1,16 @@
-{}
+{
+    "ISI": [
+        {
+            "model": "CovBcast",
+            "changes": [
+                "model-output/ISI-CovBcast/2024-11-13-ISI-CovBcast.csv"
+            ]
+        },
+        {
+            "model": "RC_AdaptEns2",
+            "changes": [
+                "model-output/ISI-RC_AdaptEns2/2024-11-13-ISI-RC_AdaptEns2.csv"
+            ]
+        }
+    ]
+}
