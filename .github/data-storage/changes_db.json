@@ -19,6 +19,18 @@
             "changes": [
                 "model-output/ECDC-CM_TWO_H/2024-11-13-ECDC-CM_TWO_H.csv"
             ]
+        },
+        {
+            "model": "SARIMA",
+            "changes": [
+                "model-output/ECDC-SARIMA/2024-11-13-ECDC-SARIMA.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2024-11-13-ECDC-soca_simplex.csv"
+            ]
         }
     ]
 }
