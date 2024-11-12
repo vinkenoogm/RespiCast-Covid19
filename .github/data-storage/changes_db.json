@@ -12,5 +12,13 @@
                 "model-output/ISI-RC_AdaptEns2/2024-11-13-ISI-RC_AdaptEns2.csv"
             ]
         }
+    ],
+    "ECDC": [
+        {
+            "model": "CM_TWO_H",
+            "changes": [
+                "model-output/ECDC-CM_TWO_H/2024-11-13-ECDC-CM_TWO_H.csv"
+            ]
+        }
     ]
 }
