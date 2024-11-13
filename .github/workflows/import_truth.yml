@@ -22,18 +22,18 @@ jobs:
     # -----------------------------
     - name: Get previous workflow run
       id: get_previous_run
-      if: github.event.schedule != '00 18 * * 5'  // Only if wf is not running on friday
+      if: github.event.schedule != '00 18 * * 5'
       uses: actions/github-script@v6
       with:
         script: |
           const response = await github.rest.actions.listWorkflowRuns({
             owner: context.repo.owner,
             repo: context.repo.repo,
-            workflow_id: 'import_truth.yml', // Workflow file name
-            per_page: 1, // Last run info
+            workflow_id: 'import_truth.yml',
+            per_page: 1,
           });
           const lastRun = response.data.workflow_runs[0];
-          core.setOutput('conclusion', lastRun.conclusion || 'no_run'); // last run conclusion 
+          core.setOutput('conclusion', lastRun.conclusion || 'no_run');
 
     - name: Cancel workflow if last run was successful (Only if not running on friday)
       if: ${{ github.event.schedule != '00 18 * * 5' && steps.get_previous_run.outputs.conclusion == 'success' }}
