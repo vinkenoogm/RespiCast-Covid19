@@ -5,6 +5,18 @@
             "changes": [
                 "model-output/ISI-CovidABCaster/2024-11-20-ISI-CovidABCaster.csv"
             ]
+        },
+        {
+            "model": "CovBcast",
+            "changes": [
+                "model-output/ISI-CovBcast/2024-11-20-ISI-CovBcast.csv"
+            ]
+        },
+        {
+            "model": "RC_AdaptEns2",
+            "changes": [
+                "model-output/ISI-RC_AdaptEns2/2024-11-20-ISI-RC_AdaptEns2.csv"
+            ]
         }
     ],
     "ItaLuxColab": [
