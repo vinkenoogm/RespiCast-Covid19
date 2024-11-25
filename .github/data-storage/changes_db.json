@@ -33,6 +33,12 @@
             "changes": [
                 "model-output/ISI-CovidABCaster/2024-11-27-ISI-CovidABCaster.csv"
             ]
+        },
+        {
+            "model": "CovBcast",
+            "changes": [
+                "model-output/ISI-CovBcast/2024-11-27-ISI-CovBcast.csv"
+            ]
         }
     ]
 }
