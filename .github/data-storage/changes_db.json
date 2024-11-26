@@ -39,6 +39,12 @@
             "changes": [
                 "model-output/ISI-CovBcast/2024-11-27-ISI-CovBcast.csv"
             ]
+        },
+        {
+            "model": "SEIR_BRW",
+            "changes": [
+                "model-output/ISI-SEIR_BRW/2024-11-27-ISI-SEIR_BRW.csv"
+            ]
         }
     ]
 }
