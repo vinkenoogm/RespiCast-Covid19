@@ -52,5 +52,13 @@
                 "model-output/ECDC-soca_simplex/2024-12-04-ECDC-soca_simplex.csv"
             ]
         }
+    ],
+    "safinea": [
+        {
+            "model": "CovidCast",
+            "changes": [
+                "model-output/safinea-CovidCast/2024-12-04-safinea-CovidCast.csv"
+            ]
+        }
     ]
 }
