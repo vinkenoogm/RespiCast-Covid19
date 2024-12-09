@@ -6,5 +6,19 @@
                 "model-output/ItaLuxColab-EpiEKF/2024-12-11-ItaLuxColab-EpiEKF.csv"
             ]
         }
+    ],
+    "ECDC": [
+        {
+            "model": "CM_TWO_H",
+            "changes": [
+                "model-output/ECDC-CM_TWO_H/2024-12-11-ECDC-CM_TWO_H.csv"
+            ]
+        },
+        {
+            "model": "CM_TWO_HC",
+            "changes": [
+                "model-output/ECDC-CM_TWO_HC/2024-12-11-ECDC-CM_TWO_HC.csv"
+            ]
+        }
     ]
 }
