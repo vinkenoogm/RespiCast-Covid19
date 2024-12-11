@@ -51,6 +51,12 @@
             "changes": [
                 "model-output/ISI-RC_AdaptEns2/2024-12-11-ISI-RC_AdaptEns2.csv"
             ]
+        },
+        {
+            "model": "SEIR_BRW",
+            "changes": [
+                "model-output/ISI-SEIR_BRW/2024-12-11-ISI-SEIR_BRW.csv"
+            ]
         }
     ]
 }
