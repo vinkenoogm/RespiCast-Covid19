@@ -20,5 +20,13 @@
                 "model-output/ECDC-CM_TWO_HC/2024-12-18-ECDC-CM_TWO_HC.csv"
             ]
         }
+    ],
+    "ISI": [
+        {
+            "model": "SEIR_BRW",
+            "changes": [
+                "model-output/ISI-SEIR_BRW/2024-12-18-ISI-SEIR_BRW.csv"
+            ]
+        }
     ]
 }
