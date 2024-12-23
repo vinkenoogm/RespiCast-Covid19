@@ -13,6 +13,18 @@
             "changes": [
                 "model-output/ISI-CovidABCaster/2024-12-25-ISI-CovidABCaster.csv"
             ]
+        },
+        {
+            "model": "CovBcast",
+            "changes": [
+                "model-output/ISI-CovBcast/2024-12-25-ISI-CovBcast.csv"
+            ]
+        },
+        {
+            "model": "RC_AdaptEns2",
+            "changes": [
+                "model-output/ISI-RC_AdaptEns2/2024-12-25-ISI-RC_AdaptEns2.csv"
+            ]
         }
     ]
 }
