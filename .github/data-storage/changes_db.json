@@ -32,5 +32,13 @@
                 "model-output/ECDC-CM_TWO_HC/2025-01-15-ECDC-CM_TWO_HC.csv"
             ]
         }
+    ],
+    "ISI": [
+        {
+            "model": "CovidABCaster",
+            "changes": [
+                "model-output/ISI-CovidABCaster/2025-01-15-ISI-CovidABCaster.csv"
+            ]
+        }
     ]
 }
