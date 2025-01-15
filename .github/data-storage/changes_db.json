@@ -52,5 +52,13 @@
                 "model-output/ISI-RC_AdaptEns2/2025-01-15-ISI-RC_AdaptEns2.csv"
             ]
         }
+    ],
+    "safinea": [
+        {
+            "model": "CovidCast",
+            "changes": [
+                "model-output/safinea-CovidCast/2025-01-15-safinea-CovidCast.csv"
+            ]
+        }
     ]
 }
