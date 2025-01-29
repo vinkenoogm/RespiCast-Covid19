@@ -32,5 +32,19 @@
                 "model-output/ISI-RC_AdaptEns2/2025-01-29-ISI-RC_AdaptEns2.csv"
             ]
         }
+    ],
+    "ECDC": [
+        {
+            "model": "SARIMA",
+            "changes": [
+                "model-output/ECDC-SARIMA/2025-01-29-ECDC-SARIMA.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2025-01-29-ECDC-soca_simplex.csv"
+            ]
+        }
     ]
 }
