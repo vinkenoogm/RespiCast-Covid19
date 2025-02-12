@@ -58,5 +58,13 @@
                 "model-output/ItaLuxColab-EpiEKF/2025-02-12-ItaLuxColab-EpiEKF.csv"
             ]
         }
+    ],
+    "safinea": [
+        {
+            "model": "CovidCast",
+            "changes": [
+                "model-output/safinea-CovidCast/2025-02-12-safinea-CovidCast.csv"
+            ]
+        }
     ]
 }
