@@ -17,6 +17,12 @@
             "changes": [
                 "model-output/ISI-CovidABCaster/2025-02-12-ISI-CovidABCaster.csv"
             ]
+        },
+        {
+            "model": "LSTFlu",
+            "changes": [
+                "model-output/ISI-LSTFlu/2025-02-12-ISI-LSTFlu.csv"
+            ]
         }
     ],
     "ECDC": [
