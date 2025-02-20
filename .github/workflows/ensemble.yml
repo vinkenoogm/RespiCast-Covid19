@@ -36,6 +36,13 @@ jobs:
         repository: 'european-modelling-hubs/hub-tools'
         ref: 'main'
         path: './tools/'
+
+    # Installing lib curl
+    # -------------------------------------------
+    - name: Install lib curl
+      run: |
+        sudo apt-get update
+        sudo apt-get install libcurl4-openssl-dev
      
     - uses: r-lib/actions/setup-r@v2
       with:
