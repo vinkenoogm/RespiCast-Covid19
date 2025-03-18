@@ -17,6 +17,12 @@
             "changes": [
                 "model-output/ISI-RC_AdaptEns2/2025-03-19-ISI-RC_AdaptEns2.csv"
             ]
+        },
+        {
+            "model": "LSTFlu",
+            "changes": [
+                "model-output/ISI-LSTFlu/2025-03-19-ISI-LSTFlu.csv"
+            ]
         }
     ],
     "ItaLuxColab": [
