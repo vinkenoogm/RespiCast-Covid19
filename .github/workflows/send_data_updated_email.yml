@@ -12,8 +12,7 @@ on:
 jobs:
   scheduled-submit:
   
-    # if: ${{ github.event.workflow_run.conclusion == 'success' && github.repository_owner == 'european-modelling-hubs' }}    
-    if: ${{ github.repository_owner == 'european-modelling-hubs' }}    
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github.repository_owner == 'european-modelling-hubs' }}    
     runs-on: ubuntu-latest
     
     steps:
@@ -105,7 +104,6 @@ jobs:
           subject: "RespiCast-Covid19 Data Update"
           body: ${{ secrets.EMAIL_TEXT }}
           to: respicast@isi.it
-          # bcc: ${{ steps.extract_from_metadata.outputs.email_list }}
-          bcc: paolo.milano@gmail.com
+          bcc: ${{ steps.extract_from_metadata.outputs.email_list }}
           from: "Respicast Team <respicast@isi.it>"
           content_type: text/plain
