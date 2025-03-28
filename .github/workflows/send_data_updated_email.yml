@@ -101,7 +101,7 @@ jobs:
           server_port: 587
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
-          subject: "RespiCast Data Update"
+          subject: "RespiCast-Covid19 Data Update"
           body: ${{ secrets.EMAIL_TEXT }}
           to: respicast@isi.it
           bcc: ${{ steps.extract_from_metadata.outputs.email_list }}
