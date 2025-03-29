@@ -1,1 +1,10 @@
-{}
+{
+    "ISI": [
+        {
+            "model": "CovidABCaster",
+            "changes": [
+                "model-output/ISI-CovidABCaster/2025-04-02-ISI-CovidABCaster.csv"
+            ]
+        }
+    ]
+}
