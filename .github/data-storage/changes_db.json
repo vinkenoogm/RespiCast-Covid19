@@ -5,6 +5,12 @@
             "changes": [
                 "model-output/ISI-CovidABCaster/2025-04-02-ISI-CovidABCaster.csv"
             ]
+        },
+        {
+            "model": "SEIR_BRW",
+            "changes": [
+                "model-output/ISI-SEIR_BRW/2025-04-02-ISI-SEIR_BRW.csv"
+            ]
         }
     ],
     "ItaLuxColab": [
