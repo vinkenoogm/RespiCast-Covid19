@@ -1,1 +1,16 @@
-{}
+{
+    "ECDC": [
+        {
+            "model": "SARIMA",
+            "changes": [
+                "model-output/ECDC-SARIMA/2025-05-14-ECDC-SARIMA.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2025-05-14-ECDC-soca_simplex.csv"
+            ]
+        }
+    ]
+}
