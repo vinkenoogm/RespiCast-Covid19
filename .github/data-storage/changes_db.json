@@ -38,5 +38,13 @@
                 "model-output/ISI-RC_AdaptEns2/2025-05-14-ISI-RC_AdaptEns2.csv"
             ]
         }
+    ],
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2025-05-14-ItaLuxColab-EpiEKF.csv"
+            ]
+        }
     ]
 }
