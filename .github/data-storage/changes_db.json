@@ -20,5 +20,19 @@
                 "model-output/ECDC-CM_TWO_HC/2025-05-28-ECDC-CM_TWO_HC.csv"
             ]
         }
+    ],
+    "ISI": [
+        {
+            "model": "CovBcast",
+            "changes": [
+                "model-output/ISI-CovBcast/2025-05-28-ISI-CovBcast.csv"
+            ]
+        },
+        {
+            "model": "RC_AdaptEns2",
+            "changes": [
+                "model-output/ISI-RC_AdaptEns2/2025-05-28-ISI-RC_AdaptEns2.csv"
+            ]
+        }
     ]
 }
