@@ -5,8 +5,8 @@ on:
     # workflows: [GenerateEnsemble]
     workflows: [GenerateBaseline]
             
-  #   types:
-  #     - completed
+    types:
+      - completed
 
   # TEMPORARY - Until intermediate Ensemble upload is approved
   # scheduled submission every Thursday at 00.55 CET
