@@ -28,5 +28,13 @@
                 "model-output/ISI-CovBcast/2025-07-16-ISI-CovBcast.csv"
             ]
         }
+    ],
+    "QMUL": [
+        {
+            "model": "ARIMA",
+            "changes": [
+                "model-output/QMUL-ARIMA/2025-07-16-QMUL-ARIMA.csv"
+            ]
+        }
     ]
 }
