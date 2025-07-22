@@ -32,5 +32,13 @@
                 "model-output/ECDC-CM_TWO_HC/2025-07-23-ECDC-CM_TWO_HC.csv"
             ]
         }
+    ],
+    "ISI": [
+        {
+            "model": "CovBcast",
+            "changes": [
+                "model-output/ISI-CovBcast/2025-07-23-ISI-CovBcast.csv"
+            ]
+        }
     ]
 }
