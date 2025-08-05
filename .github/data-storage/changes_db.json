@@ -40,5 +40,13 @@
                 "model-output/safinea-PRFM/2025-08-06-safinea-PRFM.csv"
             ]
         }
+    ],
+    "QMUL": [
+        {
+            "model": "ARIMA",
+            "changes": [
+                "model-output/QMUL-ARIMA/2025-08-06-QMUL-ARIMA.csv"
+            ]
+        }
     ]
 }
