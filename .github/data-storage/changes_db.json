@@ -6,5 +6,13 @@
                 "model-output/QMUL-ARIMA/2025-08-13-QMUL-ARIMA.csv"
             ]
         }
+    ],
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2025-08-13-ItaLuxColab-EpiEKF.csv"
+            ]
+        }
     ]
 }
