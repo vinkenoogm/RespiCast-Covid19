@@ -40,5 +40,13 @@
                 "model-output/ECDC-soca_simplex/2025-08-13-ECDC-soca_simplex.csv"
             ]
         }
+    ],
+    "ISI": [
+        {
+            "model": "CovBcast",
+            "changes": [
+                "model-output/ISI-CovBcast/2025-08-13-ISI-CovBcast.csv"
+            ]
+        }
     ]
 }
