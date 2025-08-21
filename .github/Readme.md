@@ -29,6 +29,6 @@ If you have any questions or encounter issues at any stage, please don't hesitat
 
 
 ## Suggested citation
-If you would like to cite this repository’s information please use the following wording, and mention the date in which you consulted it. 
+If you would like to cite this repository’s information please use the following wording, and mention the date in which you consulted it. <br>
 *European Centre for Disease Prevention and Control. RespiCast - ECDC Respiratory Diseases Forecasting Hub - Covid-19. Consulted on [Date]. https://github.com/european-modelling-hubs/RespiCast-Covid19.* <br>
 When using individual teams’ forecasts, please check the relative metadata file (in the [model-metadata](https://github.com/european-modelling-hubs/RespiCast-Covid19/tree/main/model-metadata) folder) for licensing details and permits.
