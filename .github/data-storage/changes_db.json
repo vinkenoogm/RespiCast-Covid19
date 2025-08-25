@@ -21,6 +21,12 @@
             "changes": [
                 "model-output/ECDC-SARIMA2/2025-08-27-ECDC-SARIMA2.csv"
             ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2025-08-27-ECDC-soca_simplex.csv"
+            ]
         }
     ]
 }
