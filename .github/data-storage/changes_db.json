@@ -25,6 +25,18 @@
             "changes": [
                 "model-output/ECDC-CM_TWO_HC/2025-09-24-ECDC-CM_TWO_HC.csv"
             ]
+        },
+        {
+            "model": "SARIMA2",
+            "changes": [
+                "model-output/ECDC-SARIMA2/2025-09-24-ECDC-SARIMA2.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2025-09-24-ECDC-soca_simplex.csv"
+            ]
         }
     ],
     "QMUL": [
